@@ -14,3 +14,7 @@ class IndeedJobItem(scrapy.Item):
     job_text = scrapy.Field()
     link_url = scrapy.Field()
     company_review_url = scrapy.Field()
+
+
+class IndeedReviewItem(scrapy.Item):
+    url = scrapy.Field()
