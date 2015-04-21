@@ -9,3 +9,4 @@ Install all required packages:
 Start crawl:
 
     crawl indeed_jobs
+    crawl indeed_reviews
